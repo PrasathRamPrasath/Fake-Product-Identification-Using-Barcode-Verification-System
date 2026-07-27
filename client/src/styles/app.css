@@ -1,0 +1,12 @@
+.ant-table-thead > tr > th {
+  background: #f5f5ff !important;
+  font-weight: 600;
+}
+
+.ant-layout-sider-trigger {
+  background: #15132f !important;
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-item-selected {
+  background: #4f46e5 !important;
+}
