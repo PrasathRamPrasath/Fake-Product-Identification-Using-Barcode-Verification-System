@@ -18,8 +18,8 @@ const BarcodeModal = ({ open, onClose, productName, barcode }: BarcodeModalProps
 
   return (
     <Modal open={open} onCancel={onClose} footer={null} title={`Barcode — ${productName}`} centered>
-      <div ref={wrapperRef} style={{ display: 'flex', justifyContent: 'center', padding: 16 }}>
-        <BarcodeImage value={barcode} height={80} />
+      <div ref={wrapperRef} style={{ display: 'flex', justifyContent: 'center', padding: 16, background: '#fff' }}>
+        <BarcodeImage value={barcode} height={140} width={3} margin={16} />
       </div>
       <Space style={{ width: '100%', justifyContent: 'center' }}>
         <Button
